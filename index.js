@@ -41,9 +41,8 @@ function sondage(){
   }
   ev1 = events[r_index1];
   ev2 = events[r_index2];
-  bot.chat('/title @a title {"text":"Votez!","color":"green"}')
+  bot.chat('/title @a title {"text":"Votez !","color":"green"}')
   bot.chat(`Il est temps de voter entre ${ev1.name} et ${ev2.name}`);
-  bot.chat(`/title @a actionbar {"text":"${ev1.name}","color":"red"}`)
   setTimeout(function(){
     sondage_actif = false
     if(ev1_cnt > ev2_cnt){
