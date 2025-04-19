@@ -6,7 +6,7 @@ const config = {
     "microsoft":"mircrosoft",
     "offline":"offline"
   },
-  "liveId":"FCeQqrZvwnk",
+  "liveId":"",
   "delay":60000
 }
 module.exports = {config};

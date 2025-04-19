@@ -9,7 +9,7 @@ let ev1_cnt =0;
 let ev2_cnt=0;
 let sondage_actif = false;
 console.log("Anarchy Events")
-const liveChat = new LiveChat(config.liveId);
+const liveChat = new LiveChat({liveId:config.liveId});
 console.log("This project is realised by")
 console.log(`
  _   ___       ___            
